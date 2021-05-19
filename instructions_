@@ -1,0 +1,18 @@
+1. put aodv file in the ns2-2.35 aodv folder
+
+2. copy NHDF folder and paste in in ns-allinone-2.35/ns-2.35  
+
+3. then go to makefile.in in the ns-allinone-2.35/ns-2.35 and open Makefile.in and paste NHDF/tspagent.o \   in OBJ_CC sections (the screenshot picture is shared named makefileAdd)
+
+
+4. lastly do the command in command line
+
+5  .\configure (sharmin@sharmin:~/ns-allinone-2.35/ns-2.35$ ./configure)
+
+6. make (sharmin@sharmin:~/ns-allinone-2.35/ns-2.35$ make)
+
+7. clear
+
+ Run tcl file with following command
+
+8. ns main.tcl
